@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## How to communicate
+
+By default, respond as concisely and clearly as possible in simple, plain English that anyone would understand. Don't pad answers with detail the user didn't ask for; if they want more, they'll ask. This is the default for every response, including when using any skill, unless the user asks for a different style.
+
 ## What this repo is
 
 This repository **is a Claude Skill**, not an application. There is no code, no build, no test runner, no lint. The deliverable is the markdown content itself, which end users install into `~/.claude/skills/` (Claude Code) or upload via Customize > Skills (claude.ai). "Running" the skill means Claude loads `SKILL.md` when a conversation matches the frontmatter `description` trigger.

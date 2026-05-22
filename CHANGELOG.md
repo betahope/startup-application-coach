@@ -10,6 +10,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/). Versions
 
 ---
 
+## [3.4.2] - 2026-05-22
+
+### Added
+- `CLAUDE.md` "How to communicate" rule: respond as concisely and clearly as possible in simple, plain English by default, on every response and when using any skill, unless the user asks for a different style.
+
+---
+
 ## [3.4.1] - 2026-05-05
 
 ### Changed
